@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.theclient.hacks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ClientPlayNetworkHandlerMixin",
+    "fullBrightMixin",
+    "GameMenuScreenMixin",
+    "GameRenderMixin",
+    "MinecraftClientMixin",
+    "TickMixin",
+    "mapRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
